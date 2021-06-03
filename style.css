@@ -1,0 +1,10 @@
+.static {
+  /*Having the position absolute makes sure that the gif is right on top of the image as opposed to below it.*/
+    position:absolute;
+    background: green;
+  }
+  
+  /*This basically makes sure that the static image has an opacity of 0 when the mouse is hovered over it. In other words, the static image "disappears" to allow your gif to show*/
+  .static:hover {
+    opacity:0;
+  }
